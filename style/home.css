@@ -227,6 +227,53 @@ body {
   height: auto;
 }
 
+footer {
+  padding-top: 50px;
+}
+
+.logo_footer {
+  width: 100px;
+  padding-bottom: 15px;
+}
+#button {
+  content: red;
+}
+
+col{
+  width: 25%;
+  padding: 0px 15px;
+  text-align: left;
+}
+
+h2{
+  padding-bottom: 15px;
+  color: red;
+}
+p {
+  text-decoration: none;
+  padding-top: 1px;
+}
+
+.klik {
+  cursor: pointer;
+  transition: all 0.3s ease;
+ }
+
+ .klik:hover {
+  color: red;
+  padding-left: 8px;
+ }
+ 
+.button_footer {
+  width: 150px;
+  height: auto;
+  font-size: 18px;
+}
+
+.copyright { 
+  text-align: center;
+}
+
 @media screen and (min-width: 680px) {
   #about {
     background-position: center;
