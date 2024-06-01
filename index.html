@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <img src="img/logo.png" alt="logo" width="85" class="navbar-logo" />
         <button
@@ -174,10 +174,12 @@
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Pelaku bisnis online dan offline di seluruh Indonesia yang
+                berjualan melalui sosial media.
               </p>
-              <a href="#" class="button-service">Go somewhere</a>
+              <a href="/Routes/umkm.html" class="button-service"
+                >Baca Selengkapnya</a
+              >
             </div>
           </div>
         </div>
@@ -193,10 +195,10 @@
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Pelaku bisnis yang berjualan berbagai jenis produk di berbagai
+                platform online.
               </p>
-              <a href="#" class="button-service">Go somewhere</a>
+              <a href="#" class="button-service">Baca Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -212,10 +214,10 @@
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Perusahaan yang memiliki kebutuhan kustomisasi pengiriman hingga
+                pergudangan.
               </p>
-              <a href="#" class="button-service">Go somewhere</a>
+              <a href="#" class="button-service">Baca Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -248,11 +250,83 @@
       </div>
     </div>
 
+    <!-- Footer-Noni -->
+    <footer>
+      <div class="container">
+        <div class="row row-cols-4">
+          <div class="satu col">
+            <div class="p-3">
+              <img src="img/logo.png" class="logo_footer" alt="..." />
+              <p>
+                Pengiriman barang untuk UMKM, penjual online, dan perusahaan.
+                Mendukung pembayaran COD (Cash on Delivery).
+              </p>
+              <button type="button" class="btn btn-danger button_footer">
+                Kontak Kami
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <h2>Ninja Xpress</h2>
+              <p class="klik">Tentang Kami</p>
+              <p class="klik">Blog</p>
+              <p class="klik">Seller Booster</p>
+              <p class="klik">Karir</p>
+              <p class="klik">Daftar Jadi Kurir</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <h2>Layanan</h2>
+              <p class="klik">Layanan Utama</p>
+              <p class="klik">Pengadaan Barang</p>
+              <p class="klik">Pengiriman Internasional</p>
+              <p class="klik">Jadi Mitra Ninja</p>
+              <p class="klik">Lacak Paket</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <h2>Bantuan</h2>
+              <p class="klik">Bantuan Penerima Paket</p>
+              <p class="klik">Bantuan Pengirim Paket</p>
+              <p class="klik">Temukan Mitra Ninja</p>
+              <p class="klik">Berlangganan Ninja Chat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">Copyright © 2024 Ninja Xpress</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div id="top">
+      <a href="#navbar">
+        <svg
+          width="2em"
+          height="2em"
+          viewBox="0 0 16 16"
+          class="bi bi-arrow-up-square-fill"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 8.354a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 6.207V11a.5.5 0 0 1-1 0V6.207L5.354 8.354z"
+          />
+        </svg>
+      </a>
+    </div>
+
     <!-- Script Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Custom Script -->
+    <script src="/main.js"></script>
   </body>
 </html>
